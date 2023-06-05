@@ -8,16 +8,15 @@ import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { Search } from "lucide-react";
 import { ShoppingCart } from "lucide-react";
+import { AlignRight } from "lucide-react";
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -59,11 +58,11 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavigationMenuDemo() {
   return (
-    <nav className="flex items-center justify-evenly py-2  px-10">
+    <nav className="flex items-center  lg:justify-evenly py-2 justify-between  px-10">
       <div className="logo">
         <Image src={logo} alt="logo" />
       </div>
-      <div className=" gap-x-7 hidden md:flex">
+      <div className=" gap-x-3 hidden lg:flex">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -103,9 +102,9 @@ export default function NavigationMenuDemo() {
           </NavigationMenuList>
         </NavigationMenu>
       </div>
-      <div className="hidden md:flex input">
+      <div className="hidden lg:flex input">
         <div className="border border-slate-300 bg-white z-10 rounded-sm ">
-          <Search className="text-inherit " />{" "}
+          <Search className="text-inherit " />
         </div>
         <Input
           type="text"
@@ -113,9 +112,14 @@ export default function NavigationMenuDemo() {
           className="h-2 bg-white  p-3 ms-[-10px]  "
         />
       </div>
-      <div className="shopingcart-icon relative bg-slate-200 w-14 h-14 rounded-full items-center flex justify-center cursor-pointer hover:scale-110 hover:transition-all hover:ease-in-out delay-150">
-        <span className="bg-red-500 h-5 w-5 absolute text-sm top-0  right-2 rounded-full text-center text-slate-50">1</span>
+      <div className="hidden shopingcart-icon relative bg-[#f1f1f1] w-14 h-14 rounded-full items-center lg:flex justify-center cursor-pointer hover:scale-110 hover:transition-all hover:ease-in-out delay-150">
+        <span className="bg-red-500 h-5 w-5 absolute text-sm top-0  right-2 rounded-full text-center text-slate-50">
+          1
+        </span>
         <ShoppingCart className="" width={20} height={20} />
+      </div>
+      <div className="flex lg:hidden">
+        <AlignRight className="  flex lg:hidden" width={30} height={30} />
       </div>
     </nav>
   );
