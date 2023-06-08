@@ -11,7 +11,7 @@ const page = () => {
         </h1>
       </div>
       <div className="flex justify-between flex-wrap md:flex-nowrap gap-10 mt-10 ">
-        <div className="container-bg relative flex justify-between flex-wrap gap-y-6 ">
+        <div className="container-bg relative flex justify-between flex-wrap gap-y-4 ">
           <div className="text-bg absolute -top-10 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-8xl w-[40%] leading-loose text-gray-100 -z-50">
             Diffrent from other
           </div>
@@ -52,8 +52,7 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="">
-          <div className="right flex justify-between gap-5 ">
+          <div className="right flex justify-between gap-5 flex-wrap md:flex-nowrap ">
             <Image src={product2} className=" h-auto" alt="product2" />
             <div className="w-[50%]">
               <p>
@@ -68,7 +67,6 @@ const page = () => {
                 </Button>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
