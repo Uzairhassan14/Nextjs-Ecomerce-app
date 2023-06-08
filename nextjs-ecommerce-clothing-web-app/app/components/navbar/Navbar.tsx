@@ -58,7 +58,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function NavigationMenuDemo() {
   return (
-    <nav className="flex items-center  lg:justify-evenly py-2 justify-between  px-10">
+    <nav className="flex items-center   py-2 justify-between mx-10 md:mx-5 ">
       <div className="logo">
         <Image src={logo} alt="logo" />
       </div>

@@ -10,7 +10,7 @@ import { Button } from "./../../../components/ui/button";
 
 export default function page() {
   return (
-    <div className="flex justify-between  ">
+    <div className="flex justify-between">
       <div className="header-left-side">
         <Badge
           variant="outline"
@@ -26,7 +26,7 @@ export default function page() {
           as you wear Dine outfits.
         </p>
         <div className="my-5">
-          <Button className="bg-slate-900 tracking-widest leading-5 bored-4  h-20 w-44 rounded-none shadow-none border-[#ddd] flex-wrap">
+          <Button className="bg-slate-900 tracking-widest leading-5 bored-4  h-16 w-44 rounded-none shadow-none border-[#686868] flex-wrap">
             <ShoppingCart className="mr-5 h-6 w-6    " /> Start <br /> Shopping
           </Button>
         </div>

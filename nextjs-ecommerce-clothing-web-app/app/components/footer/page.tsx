@@ -7,8 +7,7 @@ import { Github } from "lucide-react";
 const page = () => {  
   return (
     <footer className="wrapper-footer mb-10">
-      <footer>
-        <div className=" md:flex md:justify-evenly px-5  flex-wrap">
+        <div className=" md:flex md:justify-evenly mx-10 lg:mx-0  flex-wrap">
           <div className="logo md:w-[25%]">
             <Image src={logo} alt="logo" />
             <p className="mt-[25px]">
@@ -53,7 +52,8 @@ const page = () => {
             </ul>
           </div>
         </div>
-        <div className="copyright mt-[6rem] border-t-2 px-5 border-slate-300 md:flex md:justify-evenly flex-wrap-wrap">
+        <div className="copyright mt-[6rem] border-t-2  border-slate-300 ">
+          <div className="mx-10 md:flex md:justify-evenly flex-wrap-wrap">
           <p className="md:mx-[7rem] mt-5">Copyright © 2022 Dine Market</p>
           <p className="md:mx-[7rem] mt-5">
             Design by. <strong> Weird Design Studio</strong>
@@ -61,8 +61,8 @@ const page = () => {
           <p className="md:mx-[7rem] mt-5">
             Code by. <strong>uzairhassan14 on github</strong>
           </p>
+          </div>
         </div>
-      </footer>
     </footer>
   );
 };
