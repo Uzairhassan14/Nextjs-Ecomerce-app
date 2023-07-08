@@ -66,16 +66,17 @@ export default function NavigationMenuDemo() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/female" legacyBehavior passHref>
+              <Link href="/pages/female" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Femal
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
+
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/male" legacyBehavior passHref>
+              <Link href="/pages/male" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Male
                 </NavigationMenuLink>
@@ -93,7 +94,7 @@ export default function NavigationMenuDemo() {
           </NavigationMenuList>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/all-product" legacyBehavior passHref>
+              <Link href="/pages/all-product" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   All Products
                 </NavigationMenuLink>
