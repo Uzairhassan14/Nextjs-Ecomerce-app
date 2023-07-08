@@ -16,7 +16,7 @@ export default function page() {
       <section className="flex gap-5 mt-10">
         <div className=" w-full  justify-between hover:scale-110 hover:ease-in duration-300 cursor-pointer ">
           <div className="bg-[#d7d7d9]  flex justify-center items-end">
-            <Image src={product1}   height={500} alt="" />
+            <Image src={product1} height={500} alt="" />
           </div>
           <div className="flex flex-col">
             <strong> Brushed Rangled Sweatshirt</strong>
@@ -25,7 +25,7 @@ export default function page() {
         </div>
         <div className="  w-full  justify-between hover:scale-110 hover:ease-in duration-300  cursor-pointer  ">
           <div className="bg-[#ece8e5] flex justify-center  items-end">
-            <Image src={product3}  height={500}  alt="" />
+            <Image src={product3} height={500} alt="" />
           </div>
           <div className="flex flex-col">
             <strong> Brushed Rangled Sweatshirt</strong>
@@ -34,7 +34,7 @@ export default function page() {
         </div>
         <div className=" w-full  justify-between hover:scale-110 hover:ease-in duration-300  cursor-pointer  ">
           <div className=" bg-[#d6d6d8] flex justify-center items-end">
-            <Image src={product5}  height={500}  alt="" />
+            <Image src={product5} height={500} alt="" />
           </div>
           <div className="flex flex-col">
             <strong> Brushed Rangled Sweatshirt</strong>
