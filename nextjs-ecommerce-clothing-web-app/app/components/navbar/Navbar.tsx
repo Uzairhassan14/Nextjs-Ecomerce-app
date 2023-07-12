@@ -60,7 +60,9 @@ export default function NavigationMenuDemo() {
   return (
     <nav className="flex items-center   py-2 justify-between mx-10 md:mx-5 ">
       <div className="logo">
-        <Image src={logo} alt="logo" />
+        <Link href="/">
+          <Image src={logo} alt="logo" />
+        </Link>
       </div>
       <div className=" gap-x-3 hidden lg:flex">
         <NavigationMenu>
@@ -85,7 +87,7 @@ export default function NavigationMenuDemo() {
           </NavigationMenuList>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="" legacyBehavior passHref>
+              <Link href="/pages/kids" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   kids
                 </NavigationMenuLink>
@@ -113,12 +115,15 @@ export default function NavigationMenuDemo() {
           className="h-2 bg-white  p-3 ms-[-10px]  "
         />
       </div>
-      <div className="hidden shopingcart-icon relative bg-[#f1f1f1] w-14 h-14 rounded-full items-center lg:flex justify-center cursor-pointer hover:scale-110 hover:transition-all hover:ease-in-out delay-150">
-        <span className="bg-red-500 h-5 w-5 absolute text-sm top-0  right-2 rounded-full text-center text-slate-50">
-          1
-        </span>
-        <ShoppingCart className="" width={20} height={20} />
-      </div>
+      <Link href="/pages/ShoppingCart">
+        <div className="hidden shopingcart-icon relative bg-[#f1f1f1] w-14 h-14 rounded-full items-center lg:flex justify-center cursor-pointer hover:scale-110 hover:transition-all hover:ease-in-out delay-150">
+          <span className="bg-red-500 h-5 w-5 absolute text-sm top-0  right-2 rounded-full text-center text-slate-50">
+            1
+          </span>
+          <ShoppingCart width={20} height={20} />
+        </div>
+      </Link>
+
       <div className="flex lg:hidden">
         <AlignRight className="  flex lg:hidden" width={30} height={30} />
       </div>
