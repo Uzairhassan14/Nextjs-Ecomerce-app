@@ -1,9 +1,10 @@
-import Image from "next/image";
-import product1 from "./../../assets/product1.png";
-import product2 from "./../../assets/product2.png";
-import product3 from "./../../assets/product3.png";
-import product5 from "./../../assets/product5.png";
-import { Button } from "@/components/ui/button";
+// import Image from "next/image";
+// import product1 from "./../../assets/product1.png";
+// import product2 from "./../../assets/product2.png";
+// import product3 from "./../../assets/product3.png";
+// import product5 from "./../../assets/product5.png";
+// import { Button } from "@/components/ui/button";
+import Swiper from "./../Swiper";
 export default function page() {
   return (
     <div className="mt-10">
@@ -13,8 +14,9 @@ export default function page() {
           Check What We Have
         </h6>
       </header>
-      <section className="flex gap-5 mt-10">
-        <div className=" w-full  justify-between hover:scale-110 hover:ease-in duration-300 cursor-pointer ">
+      <section className="flex  mt-10 ">
+        <Swiper />
+        {/* <div className=" w-full  justify-between hover:scale-110 hover:ease-in duration-300 cursor-pointer ">
           <div className="bg-[#d7d7d9]  flex justify-center items-end">
             <Image src={product1} height={500} alt="" />
           </div>
@@ -22,8 +24,8 @@ export default function page() {
             <strong> Brushed Rangled Sweatshirt</strong>
             <strong>$195</strong>
           </div>
-        </div>
-        <div className="  w-full  justify-between hover:scale-110 hover:ease-in duration-300  cursor-pointer  ">
+        </div> */}
+        {/* <div className="  w-full  justify-between hover:scale-110 hover:ease-in duration-300  cursor-pointer  ">
           <div className="bg-[#ece8e5] flex justify-center  items-end">
             <Image src={product3} height={500} alt="" />
           </div>
@@ -40,7 +42,7 @@ export default function page() {
             <strong> Brushed Rangled Sweatshirt</strong>
             <strong>$195</strong>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

@@ -7,6 +7,7 @@ import Featured3 from "./../../assets/Featured3.webp";
 import Featured4 from "./../../assets/Featured4.webp";
 import { ShoppingCart } from "lucide-react";
 import { Button } from "./../../../components/ui/button";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -14,7 +15,7 @@ export default function page() {
       <div className="header-left-side">
         <Badge
           variant="outline"
-          className="rounded-sm w-24 h-8 grid  place-content-center text-md bg-[#e1edff] text-blue-600"
+          className="rounded-sm w-28 h-8 grid  place-content-center text-md bg-[#e1edff] text-blue-600"
         >
           Sale 70%
         </Badge>
@@ -26,15 +27,18 @@ export default function page() {
           as you wear Dine outfits.
         </p>
         <div className="my-5">
-          <Button className="bg-slate-900 tracking-widest leading-5 bored-4  h-16 w-44 rounded-none shadow-none border-[#686868] flex-wrap">
-            <ShoppingCart className="mr-5 h-6 w-6    " /> Start <br /> Shopping
-          </Button>
+          <Link href="/pages/all-product">
+            <Button className="bg-slate-900 tracking-widest leading-5 bored-4  h-16 w-44 rounded-none shadow-none border-[#686868] flex-wrap">
+              <ShoppingCart className="mr-5 h-6 w-6    " /> Start <br />
+              Shopping
+            </Button>
+          </Link>
         </div>
         <div className="flex gap-5 flex-wrap">
-          <Image src={Featured1} alt="" width={100} height={100}/>
-          <Image src={Featured2} alt="" width={100} height={100}/>
-          <Image src={Featured3} alt="" width={100} height={100}/>
-          <Image src={Featured4} alt="" width={100} height={100}/>
+          <Image src={Featured1} alt="" width={100} height={100} />
+          <Image src={Featured2} alt="" width={100} height={100} />
+          <Image src={Featured3} alt="" width={100} height={100} />
+          <Image src={Featured4} alt="" width={100} height={100} />
         </div>
       </div>
       <div className="bg-[#ffece3] h-full w-full rounded-full self-center hidden lg:block">

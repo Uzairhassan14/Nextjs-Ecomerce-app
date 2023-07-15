@@ -1,9 +1,9 @@
 import "./assets/css/style.css";
 import Hero from "./components/hero/page";
 import Promotion from "./components/promotions/page";
-import Product from "./components/products/page";
+import Crousal from "./components/Crousal/page";
 import Unique from "./components/uni-authantic/page";
-import NewsLetter from "./components/newsLetter/page"
+import NewsLetter from "./components/newsLetter/page";
 export default function Home() {
   return (
     <section className="mt-10">
@@ -12,7 +12,7 @@ export default function Home() {
         <Promotion />
       </section>
       <section className="mt-28">
-        <Product />
+        <Crousal />
       </section>
       <section className="mt-28">
         <Unique />
