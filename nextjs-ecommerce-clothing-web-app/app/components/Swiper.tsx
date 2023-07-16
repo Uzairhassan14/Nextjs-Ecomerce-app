@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Allproductjson from "./Allproductsjson/page";
 import "swiper/css";
 import Link from "next/link";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function page() {
   const data = Allproductjson;
@@ -15,6 +16,16 @@ export default function page() {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       //   onAutoplay={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: false,
+      }}
+      navigation={true}
+      modules={[Autoplay, Pagination, Navigation]}
+      className="mySwiper"
     >
       {data?.map((item) => {
         return (
