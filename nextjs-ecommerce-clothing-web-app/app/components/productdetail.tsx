@@ -1,9 +1,9 @@
-import product1 from "../assets/product1.png";
+import Burshed from "../assets/Burshed.png";
 import product21 from "../assets/product21.png";
 import product22 from "../assets/product22.png";
 import product23 from "../assets/product23.png";
 import product24 from "../assets/product24.png";
-import product2 from "../assets/product2.png";
+import product2 from "../assets/Pink-Fleece-Sweatpants.png";
 import flexsweatshirt from "./../assets/flex-sweatshirt.png";
 import flexPushButtonBomber from "./../assets/flexPushButtonBomber.png";
 import imperialAlpaceHoodie from "./../assets/imperialAlpaceHoodie.png";
@@ -14,8 +14,8 @@ import FlexSweatpants from "./../assets/flex-sweatshirtpants.png";
 const data = [
   {
     id: 1,
-    img: product1,
-    images: [product1],
+    img: Burshed,
+    images: [Burshed],
     product: {
       heading: "Brushed Raglan Sweatshirt",
       subHeading: "Sweater",

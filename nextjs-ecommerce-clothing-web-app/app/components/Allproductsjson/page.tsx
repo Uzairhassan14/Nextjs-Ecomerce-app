@@ -1,6 +1,6 @@
 import React from "react";
-import product1 from "./../../assets/product1.png";
-import product2 from "./../../assets/product2.png";
+import product1 from "./../../assets/Burshed.png";
+import product21 from "./../../assets/product21.png";
 import flexsweatshirt from "../../assets/flex-sweatshirt.png";
 import imperialAlpaceHoodie from "../../assets/imperialAlpaceHoodie.png";
 import LiteSweatepants from "../../assets/LiteSweatepants.png";
@@ -26,7 +26,7 @@ const data = [
   },
   {
     id: 2,
-    image: product2,
+    image: product21,
     heading: "Cameryn Sash Tie Dress",
     subheading: "Dress",
     price: 33.99,
