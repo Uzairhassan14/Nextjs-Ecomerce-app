@@ -4,7 +4,7 @@
 // import product3 from "./../../assets/product3.png";
 // import product5 from "./../../assets/product5.png";
 // import { Button } from "@/components/ui/button";
-import Swiper from "./../Swiper";
+import Swiper from "./Swiper";
 export default function page() {
   return (
     <div className="mt-10">

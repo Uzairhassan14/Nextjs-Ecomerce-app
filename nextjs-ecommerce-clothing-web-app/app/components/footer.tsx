@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "./../../assets/Logo.webp";
+import logo from "../assets/Logo.webp";
 import { Facebook } from "lucide-react";
 import { Linkedin } from "lucide-react";
 import { Github } from "lucide-react";

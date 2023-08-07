@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import logo from "./../../assets/Logo.webp";
+import logo from "../assets/Logo.webp";
 import { Input } from "@/components/ui/input";
 
 import { cn } from "@/lib/utils";
@@ -115,7 +115,7 @@ export default function NavigationMenuDemo() {
           className="h-2 bg-white  p-3 ms-[-10px]  "
         />
       </div>
-      <Link href="/pages/ShoppingCart">
+      <Link href="/pages/shoppingCart">
         <div className="hidden shopingcart-icon relative bg-[#f1f1f1] w-14 h-14 rounded-full items-center lg:flex justify-center cursor-pointer hover:scale-110 hover:transition-all hover:ease-in-out delay-150">
           <span className="bg-red-500 h-5 w-5 absolute text-sm top-0  right-2 rounded-full text-center text-slate-50">
             1

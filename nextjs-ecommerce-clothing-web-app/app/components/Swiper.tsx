@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Allproductjson from "./Allproductsjson/page";
+import Allproductjson from "./Allproductsjson";
 import "swiper/css";
 import Link from "next/link";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
