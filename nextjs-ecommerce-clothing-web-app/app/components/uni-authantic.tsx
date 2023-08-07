@@ -1,5 +1,5 @@
 import Image from "next/image";
-import product2 from "./../../assets/imperialAlpaceHoodie.png";
+import product2 from "../assets/imperialAlpaceHoodie.png";
 import { Button } from "@/components/ui/button";
 
 const page = () => {
