@@ -1,9 +1,9 @@
 import "./assets/css/style.css";
-import Hero from "./components/hero/page";
-import Promotion from "./components/promotions/page";
-import Crousal from "./components/Crousal/page";
-import Unique from "./components/uni-authantic/page";
-import NewsLetter from "./components/newsLetter/page";
+import Hero from "./components/hero";
+import Promotion from "./components/promotions";
+import Crousal from "./components/Crousal";
+import Unique from "./components/uni-authantic";
+import NewsLetter from "./components/newsLetter";
 export default function Home() {
   return (
     <section className="mt-10">

@@ -1,19 +1,12 @@
 import React from "react";
-import product1 from "./../../assets/product1.png";
-import product2 from "./../../assets/product2.png";
-import flexsweatshirt from "../../assets/flex-sweatshirt.png";
-import imperialAlpaceHoodie from "../../assets/imperialAlpaceHoodie.png";
-import LiteSweatepants from "../../assets/LiteSweatepants.png";
-import flexPushButtonBomber from "../../assets/flexPushButtonBomber.png";
-import PinkFleeceSweatpants from "../../assets/Pink-Fleece-Sweatpants.png";
-import FlexSweatpants from "../../assets/flex-sweatshirtpants.png";
-import product4 from "./../../assets/event3.webp";
-import product5 from "./../../assets//product1.png";
-import product6 from "./../../assets/product2.png";
-import product7 from "./../../assets/product3.png";
-import product8 from "./../../assets/product4.png";
-import product9 from "./../../assets/product5.png";
-import product10 from "./../../assets/event1.webp";
+import product1 from "../assets/product1.png";
+import product2 from "../assets/product2.png";
+import flexsweatshirt from "../assets/flex-sweatshirt.png";
+import imperialAlpaceHoodie from "../assets/imperialAlpaceHoodie.png";
+import LiteSweatepants from "../assets/LiteSweatepants.png";
+import flexPushButtonBomber from "../assets/flexPushButtonBomber.png";
+import PinkFleeceSweatpants from "../assets/Pink-Fleece-Sweatpants.png";
+import FlexSweatpants from "../assets/flex-sweatshirtpants.png";
 
 const data = [
   {

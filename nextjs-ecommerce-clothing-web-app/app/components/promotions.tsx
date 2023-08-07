@@ -1,7 +1,7 @@
 import Image from "next/image";
-import event1 from "./../../assets/event1.webp";
-import event2 from "./../../assets/event2.webp";
-import event3 from "./../../assets/event3.webp";
+import event1 from "../assets/event1.webp";
+import event2 from "../assets/event2.webp";
+import event3 from "../assets/event3.webp";
 import { Button } from "@/components/ui/button";
 export default function page() {
   return (

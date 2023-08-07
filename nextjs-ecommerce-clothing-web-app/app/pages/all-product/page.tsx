@@ -1,6 +1,6 @@
 import React from "react";
-import Cards from "./../../components/cards/page";
-import data from "./../../components/Allproductsjson//page";
+import Cards from "../../components/cards";
+import data from "../../components/Allproductsjson";
 import Link from "next/link";
 const page = () => {
   return (

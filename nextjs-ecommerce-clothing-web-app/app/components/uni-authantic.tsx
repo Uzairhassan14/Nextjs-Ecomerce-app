@@ -1,5 +1,5 @@
 import Image from "next/image";
-import product2 from "./../../assets/product2.png";
+import product2 from "../assets/product2.png";
 import { Button } from "@/components/ui/button";
 
 const page = () => {
@@ -62,7 +62,7 @@ const page = () => {
                 undyed and 100% traceable.
               </p>
               <div className="my-5">
-                <Button className="bg-slate-900 tracking-widest leading-5 bored-4  h-14 w-44 rounded-none shadow-none border-[#ddd] flex-wrap">
+                <Button className="bg-slate-900 tracking-widest leading-5 border-2 border-[#686868]   h-14 w-44 rounded-none shadow-none flex-wrap">
                   See All Product
                 </Button>
               </div>

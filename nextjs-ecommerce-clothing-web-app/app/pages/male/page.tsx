@@ -1,6 +1,7 @@
 import React from "react";
-import Cards from "./../../components/cards/page";
-import data from "./../../components/Allproductsjson//page";
+import Cards from "../../components/cards";
+import data from "../../components/Allproductsjson";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -10,13 +11,15 @@ const page = () => {
           return (
             <>
               {item.Gender === "Male" ? (
-                <Cards
-                  id={item.id}
-                  image={item.image}
-                  heading={item.heading}
-                  subheading={item.subheading}
-                  price={item.price}
-                />
+                <Link href={`/pages/product/${item.id}`} key={item.id}>
+                  <Cards
+                    id={item.id}
+                    image={item.image}
+                    heading={item.heading}
+                    subheading={item.subheading}
+                    price={item.price}
+                  />
+                </Link>
               ) : (
                 ""
               )}
