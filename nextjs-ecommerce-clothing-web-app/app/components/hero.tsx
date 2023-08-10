@@ -41,7 +41,7 @@ export default function page() {
           <Image src={Featured4} alt="" width={100} height={100} />
         </div>
       </div>
-      <div className="bg-[#ffece3] h-full  rounded-full self-center hidden lg:block">
+      <div className="bg-[#ffece3] h-full rounded-full self-center hidden lg:block">
         <Image src={header} alt="header" />
       </div>
     </div>

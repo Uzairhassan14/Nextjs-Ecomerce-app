@@ -3,9 +3,9 @@ import { Plus } from "lucide-react";
 import { Minus } from "lucide-react";
 import { ShoppingCart } from "lucide-react";
 import { Button } from "../../../../components/ui/button";
-import getproduct from "./../../../components/getproduct";
+import getproduct from "../../../components/getproduct";
 
-export default function page({ params }: { params: { id: number } }) {
+export default function page({ params }) {
   const data = getproduct();
   const data2 = data.filter((item) => item.id == params.id);
   console.log(data2);
