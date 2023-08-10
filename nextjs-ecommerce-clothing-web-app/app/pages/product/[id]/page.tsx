@@ -10,6 +10,8 @@ export default function page({ params }: { params: { id: number } }) {
   const data2 = data.filter((item) => item.id == params.id);
   console.log(data2);
 
+
+
   return (
     <>
       {data2.map((item) => {

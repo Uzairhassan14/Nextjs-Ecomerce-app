@@ -11,6 +11,8 @@ import LiteSweatepants from "./../assets/LiteSweatepants.png";
 import PinkFleeceSweatpants from "./../assets/Pink-Fleece-Sweatpants.png";
 import FlexSweatpants from "./../assets/flex-sweatshirtpants.png";
 
+
+
 const data = [
   {
     id: 1,
